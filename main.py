@@ -24,7 +24,7 @@ def main():
 
     test_some_and_store("results/mcts_7", "dataset-assignment2/data/", "7", 10000, MCTS, n_expansions=10)
     test_some_and_store("results/mcts_15", "dataset-assignment2/data/", "15", 10000, MCTS, n_expansions=10)
-    test_some_and_store("results/mcts_25", "dataset-assignment2/data/", "25", 1000, MCTS, n_expansions=30)
+    test_some_and_store("results/mcts_25", "dataset-assignment2/data/", "25", 1000, MCTS, n_expansions=20)
     test_some_and_store("results/mcts_51", "dataset-assignment2/data/", "51", 1000, MCTS, n_expansions=10)
     test_some_and_store("results/mcts_101", "dataset-assignment2/data/", "101", 100, MCTS, n_expansions=20)
 
